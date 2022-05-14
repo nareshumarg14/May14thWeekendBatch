@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="22391" started-at="2022-05-08T16:26:43Z" finished-at="2022-05-08T16:27:05Z">
+    <groups>
+    </groups>
+    <test name="TC001_UserLogin" duration-ms="13264" started-at="2022-05-08T16:26:43Z" finished-at="2022-05-08T16:26:56Z">
+      <class name="com.Orangehrm.testCases.TC001_UserLogin">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Orangehrm.testCases.TC001_UserLogin@19e9475]" name="setup" is-config="true" duration-ms="9665" started-at="2022-05-08T16:26:43Z" finished-at="2022-05-08T16:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.Orangehrm.testCases.TC001_UserLogin@19e9475]" name="loginTest" duration-ms="2264" started-at="2022-05-08T16:26:52Z" finished-at="2022-05-08T16:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teatdown()[pri:0, instance:com.Orangehrm.testCases.TC001_UserLogin@19e9475]" name="teatdown" is-config="true" duration-ms="1318" started-at="2022-05-08T16:26:55Z" finished-at="2022-05-08T16:26:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdown -->
+      </class> <!-- com.Orangehrm.testCases.TC001_UserLogin -->
+    </test> <!-- TC001_UserLogin -->
+    <test name="TC002_ForgotYourPasswordLinkDisplayedTest" duration-ms="9105" started-at="2022-05-08T16:26:56Z" finished-at="2022-05-08T16:27:05Z">
+      <class name="com.Orangehrm.testCases.TC002_ForgotYourPasswordLinkDisplayedTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Orangehrm.testCases.TC002_ForgotYourPasswordLinkDisplayedTest@136c2f0]" name="setup" is-config="true" duration-ms="7608" started-at="2022-05-08T16:26:56Z" finished-at="2022-05-08T16:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotYourPasswordTest()[pri:0, instance:com.Orangehrm.testCases.TC002_ForgotYourPasswordLinkDisplayedTest@136c2f0]" name="forgotYourPasswordTest" duration-ms="100" started-at="2022-05-08T16:27:04Z" finished-at="2022-05-08T16:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotYourPasswordTest -->
+        <test-method status="PASS" signature="teatdown()[pri:0, instance:com.Orangehrm.testCases.TC002_ForgotYourPasswordLinkDisplayedTest@136c2f0]" name="teatdown" is-config="true" duration-ms="1395" started-at="2022-05-08T16:27:04Z" finished-at="2022-05-08T16:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdown -->
+      </class> <!-- com.Orangehrm.testCases.TC002_ForgotYourPasswordLinkDisplayedTest -->
+    </test> <!-- TC002_ForgotYourPasswordLinkDisplayedTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
